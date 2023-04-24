@@ -1,0 +1,99 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --cor-primaria: #21094e;
+  --color-text: #000000;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+p {
+  font-size: large;
+  color: var(--color-text);
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+.imgPrint {
+  width: 66%;
+  height: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+footer {
+  margin-top: auto;
+  background-color: var(--cor-primaria);
+}
+
+header {
+  background-color: var(--cor-primaria);
+  font-size: medium;
+}
+
+input,
+select {
+  margin-top: 15px;
+  width: 100%;
+}
+
+#btnTop {
+  position: fixed;
+  bottom: 27px;
+  right: 30px;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: var(--cor-primaria);
+  color: var(--cor-primaria);
+  display: none;
+}
+
+#btnTop img {
+  width: 45px;
+  padding-top: 7px;
+  padding-right: 0.5px;
+}
+
+.btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.title {
+  color: white;
+  padding: 8px;
+}
+
+.texto-home {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/*Personalização Scrollbar*/
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--cor-primaria);
+  border-radius: 0px;
+}
